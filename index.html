@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @font-face { font-family: Outfit Bold; src: url('Outfit-Bold.ttf'); } 
+    @font-face { font-family: Outfit Regular; src: url('Outfit-Bold.ttf'); } 
+    
+
+    body{
+      background-color: #d5e1ef;
+    }
+
+    .IMG{
+      scale: 50%;
+      position: absolute;
+      top: 85px;
+      left: 581px;
+
+      border-radius: 25px;
+    }
+
+    h1{
+      position: absolute;
+      font-family: Outfit Bold;
+      left: 755px;
+      top: 525px;
+      font-size: 21px;
+      height: 700px;
+      color: hsl(218, 44%, 22%);
+    }
+
+    h2{
+      position:absolute;
+      font-family: Outfit Regular;
+      color:hsl(220, 15%, 55%);
+      left: 755px;
+      top: 575px;
+      font-size: 15px;
+    }
+
+    #WHITEBG{
+      border-radius:25px;
+    }
+  </style>
+</head>
+<body>
+  <!--
+  Improve your front-end skills by building projects
+
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Henrique Siqueira Lima</a>.
+  </div>
+  -->
+<div id="WHITEBG" style="background-color: white;position:absolute;top:205px;left: 700px;height: 490px;width: 340px;">
+</div>
+  <div>
+    <img class="IMG" src="images/image-qr-code.png" alt="">
+  </div>
+
+  <div>
+    <h1>Improve your front-end</h1>
+    <h1 style="top: 550px;left: 752px;">skills by building projects</h1>
+  </div>
+
+  <div>
+    <h2 style="top: 585px;">Scan the QR code to visit Frontend</h2>
+    <h2 style="top: 605px;left: 750px;">Mentor and take your coding skills to</h2>
+    <h2 style="top: 625px;left: 830px;">the next level</h2>
+  </div>
+
+</body>
+</html>
